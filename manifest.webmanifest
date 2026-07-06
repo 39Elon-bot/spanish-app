@@ -1,0 +1,14 @@
+{
+  "name": "¡Hablemos! — 半年でスペイン語会話",
+  "short_name": "¡Hablemos!",
+  "description": "半年でスペイン語ネイティブと会話できるようになる学習アプリ(単語・リスニング・スピーキング特化)",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fdf8f2",
+  "theme_color": "#e63946",
+  "lang": "ja",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
