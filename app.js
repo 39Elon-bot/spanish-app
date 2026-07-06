@@ -249,6 +249,7 @@ function renderHome() {
       <p>半年でスペイン語ネイティブと会話しよう</p>
       <div class="goal-bar"><div class="goal-fill" style="width:${pct}%"></div></div>
       <div class="goal-label">${done} / ${UNITS.length} ユニット完了(${pct}%)</div>
+      <a href="listen/" style="display:inline-block;margin-top:12px;background:rgba(255,255,255,.18);color:#fff;text-decoration:none;font-weight:700;font-size:.85rem;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.35)">🎧 聞き流しモード(単語1900+フレーズ384)→</a>
     </div>
   `));
 

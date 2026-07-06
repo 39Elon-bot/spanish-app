@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <title>¡Escucha! — 聞き流しスペイン語 2000語</title>
+  <meta name="description" content="頻出2000単語+ネイティブフレーズを es→en→ja の順で自動読み上げ。ランニング中でも聞き流せるスペイン語アプリ">
+  <meta name="theme-color" content="#1d3557">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="¡Escucha!">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <main id="screen"><!-- 画面はJSで描画 --></main>
+
+    <nav id="tabbar">
+      <button class="tab active" data-tab="words"><span class="tab-icon">🎧</span><span class="tab-label">単語帳</span></button>
+      <button class="tab" data-tab="phrases"><span class="tab-icon">💬</span><span class="tab-label">フレーズ</span></button>
+      <button class="tab" data-tab="settings"><span class="tab-icon">⚙️</span><span class="tab-label">設定</span></button>
+    </nav>
+  </div>
+
+  <div id="nightshade" hidden>
+    <div class="ns-word"></div>
+    <div class="ns-hint">ダブルタップで画面に戻る</div>
+  </div>
+
+  <script src="data-words-1.js"></script>
+  <script src="data-words-2.js"></script>
+  <script src="data-words-3.js"></script>
+  <script src="data-words-4.js"></script>
+  <script src="data-words-5.js"></script>
+  <script src="data-phrases.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

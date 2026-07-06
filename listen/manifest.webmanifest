@@ -1,0 +1,14 @@
+{
+  "name": "¡Escucha! — 聞き流しスペイン語 2000語",
+  "short_name": "¡Escucha!",
+  "description": "頻出2000単語+ネイティブフレーズを es→en→ja で自動読み上げする聞き流しアプリ",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#1d3557",
+  "lang": "ja",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
