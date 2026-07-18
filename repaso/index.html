@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <title>¡Repasa! — 本編の単語とフレーズを聞き流し</title>
+  <meta name="description" content="¡Hablemos! 本編の単語288+フレーズ144を es→en→ja の順で自動読み上げ。習った言葉だけの聞き流し復習アプリ">
+  <meta name="theme-color" content="#2a9d8f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="¡Repasa!">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <main id="screen"><!-- 画面はJSで描画 --></main>
+
+    <nav id="tabbar">
+      <button class="tab active" data-tab="units"><span class="tab-icon">📚</span><span class="tab-label">ユニット順</span></button>
+      <button class="tab" data-tab="words"><span class="tab-icon">🎧</span><span class="tab-label">単語だけ</span></button>
+      <button class="tab" data-tab="phrases"><span class="tab-icon">💬</span><span class="tab-label">フレーズだけ</span></button>
+      <button class="tab" data-tab="settings"><span class="tab-icon">⚙️</span><span class="tab-label">設定</span></button>
+    </nav>
+  </div>
+
+  <div id="nightshade" hidden>
+    <div class="ns-word"></div>
+    <div class="ns-hint">ダブルタップで画面に戻る</div>
+  </div>
+
+  <script src="../data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

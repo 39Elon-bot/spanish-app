@@ -1,0 +1,14 @@
+{
+  "name": "¡Repasa! — 本編の単語とフレーズを聞き流し",
+  "short_name": "¡Repasa!",
+  "description": "¡Hablemos! 本編の単語288+フレーズ144を es→en→ja の順で自動読み上げする聞き流し復習アプリ",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#2a9d8f",
+  "lang": "ja",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
